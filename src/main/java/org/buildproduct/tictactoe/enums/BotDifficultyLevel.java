@@ -1,4 +1,4 @@
-package enums;
+package org.buildproduct.tictactoe.enums;
 
 public enum BotDifficultyLevel {
     EASY,
