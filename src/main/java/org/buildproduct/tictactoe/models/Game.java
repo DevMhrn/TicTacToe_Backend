@@ -60,7 +60,7 @@ public class Game {
         nextPlayerMoveIndex = (nextPlayerMoveIndex + 1) % players.size();
         // mod taken because we want to keep the index within the range of the players
 
-        //chech if current move is the winning move
+        //check if current move is the winning move
         if(WinningStrategies.checkWinner(Board, finalMove)){
             this.gameState = GameState.ENDED;
             this.winner = currentPlayer;
